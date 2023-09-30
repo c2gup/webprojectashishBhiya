@@ -1,0 +1,152 @@
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/99ef9c40b1.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+
+}
+    </style>
+
+    <title>Card</title>
+  </head>
+
+  <body>
+
+    {{!-- Heading card --}}
+    <div class="d-flex d-flex align-items-center  flex-column ">
+      <span class="text-primary"  ><h3>First Time in History</h3></span>
+      <h3>Digital Collection wala </h3>
+     <h3>Billing Software </h3>
+    
+
+    </div>
+
+    {{! Card  }}
+    <div class="mx-auto container   " >
+
+      <div class="card-body row gy-3 d-flex align-items-center justify-content-center ">
+        <h5 class="card-title text-center">Generate
+          <span class="text-primary">e-Invoices </span>easily</h5>
+        <div class=" fw-normal">
+          <i class="fa-solid fa-hand-point-right fa-2xl"></i>
+          <span>Manage Stock,Accounting & GST Returns</span>
+        </div>
+
+       <div class=" fw-normal text-wrap">
+          <i class="fa-solid fa-hand-point-right fa-2xl"></i>
+          <span class="text-primary  strong">Free Digtital Collection
+           </span> <span >with Auto Reconciliation & GST Returns </span>
+        </div>
+
+      <div class=" fw-normal text-wrap">
+          <i class="fa-solid fa-hand-point-right fa-2xl"></i>
+          <span>Delivery inside ERP <span class="text-primary">ShipOnClick.com</span></span>
+        </div>
+        <div>
+          <i class="fa-solid fa-hand-point-right fa-2xl"></i>
+          <span>Free Website worth </span><span class="text-primary"><span>&#8377;</span>5000</span>
+        </div>
+       <div class=" fw-normal text-wrap">
+          <i class="fa-solid fa-hand-point-right fa-2xl"></i>
+         <span class="text-wrap"> <span class="text-primary"> Online Order App</span><span> for Retailers,Salesman & Delivery Boy</span></span>
+        </div>
+    <div class=" fw-normal text-wrap">
+          <i class="fa-solid fa-hand-point-right fa-2xl"></i>
+          <span class="text-wrap">Unsecured <span class="text-primary" > Business Loans </span> <span>for Financing your Business Growth & Bill Payments</span>
+        </div>
+
+      </div>
+    </div>
+
+    {{! Form start }}
+    <form
+      id="form"
+      action="/empdata"
+      method="post"
+      class="m-auto bg-light container  mt-2   mt-10 shadow-lg p-3 mb-5 bg-body rounded needs-validation rounded"
+      novalidate
+      ;
+    >
+
+      <div class="mb-3">
+
+        <div class="mb-3 text-center text-dark">
+          <h5 class="fw-bold ">Book Free Demo</h5>
+        </div>
+
+        <div class="mb-3">
+          <input
+            type="tel"
+            name="phone"
+            class="form-control"
+            id="phone"
+            placeholder="Phone Number"
+            autocomplete="off"
+            pattern="[0-9]{10}"
+          />
+          <div class="invalid-feedback">
+            Please choose Valid-Phone Number.
+          </div>
+        </div>
+        <div class="mb-3">
+          <input
+            type="text"
+            name="pincode"
+            class="form-control"
+            id="pincode"
+            placeholder="PinCode"
+            autocomplete="off"
+            pattern="[0-9]{6}"
+          />
+          <div class="invalid-feedback">
+            Please choose a Pincode.
+          </div>
+        </div>
+        <div class="mb-3">
+          <input
+            type="text"
+            name="name"
+            class="form-control"
+            id="name"
+            placeholder="Name/Firm Name"
+            pattern="[A-Za-z]{3}"
+            autocomplete="off"
+          />
+          <div class="invalid-feedback">
+            Please choose Correct Your Name , MoreThan 3 words.
+          </div>
+        </div>
+        <div class="d-grid gap-2">
+          <button type="submit" class="btn btn-primary rounded">BOOK DEMO</button>
+        </div>
+
+      </div>
+    </form>
+
+    <!-- Bootstrap JAvaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../../js/code.js"></script>
+
+  </body>
+</html>
