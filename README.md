@@ -7,7 +7,7 @@
     <li>HTML: Used for structuring the web pages.</li>
     <li>CSS: Used for styling the web pages..</li>
     <li>JavaScript: Used for client-side validation of form inputs.</li>
-    <li>Node.js: May be used for server-side functionality (if applicable).</li>
+    <li>Node.js: Used for server-side functionality (if applicable).</li>
     <li>MongoDB: Used for data storage and retrieval (if applicable).</li>
     <li>Bootstrap 5: Used for responsive and mobile-first design.</li>
   </ul>
